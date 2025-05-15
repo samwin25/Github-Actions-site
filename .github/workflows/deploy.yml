@@ -1,4 +1,4 @@
-name: Deploy HTML via SSH
+name: Deploy site HTML via SSH
 
 on:
   push:
