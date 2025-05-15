@@ -21,4 +21,4 @@ jobs:
         key: ${{ secrets.SERVER_KEY }}
         port: 22
         script: |
-          rsync -avz --delete ./ /var/www/www/
+          rsync -avz --delete ./html/ /var/www/www/
