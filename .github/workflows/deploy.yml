@@ -3,7 +3,7 @@ name: Déploiement du Site Web
 on:
   push:
     branches:
-      - main
+      - samson
 
 jobs:
   deploy:
