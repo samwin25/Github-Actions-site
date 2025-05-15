@@ -1,11 +1,9 @@
-# .github/workflows/deploy.yml
-
 name: Deploy HTML via SSH
 
 on:
   push:
     branches:
-      - demo
+      - samson
 
 jobs:
   deploy:
@@ -23,4 +21,4 @@ jobs:
         key: ${{ secrets.SERVER_KEY }}
         port: 22
         script: |
-          rsync -avz --delete ./html/ /var/www/
+          rsync -avz --delete ./html/ /var/www/www/
