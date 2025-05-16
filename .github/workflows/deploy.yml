@@ -3,7 +3,7 @@ name: 🚀 Déploiement du Site Web
 on:
   push:
     branches:
-      - samson  # Change cette branche si tu déploies depuis une autre
+      - samson
 
 jobs:
   deploy:
